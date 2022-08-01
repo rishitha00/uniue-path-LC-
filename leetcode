@@ -1,0 +1,10 @@
+PROBLEM OF THA DAY : 01-08-2022
+
+import math
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        k = n+m -2
+        l = n-1
+        ans = math.comb(k,l)
+        return ans
+        
